@@ -1,7 +1,14 @@
 
 *{
+  box-sizing: boder-box;
   font-family: Tahoma;
 }
+
+body{
+  max-width: 1000px;
+
+}
+  
 
 h1{
   text-align: center;
