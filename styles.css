@@ -1,0 +1,136 @@
+
+*{
+  font-family: Tahoma;
+}
+
+h1{
+  text-align: center;
+}
+
+q {
+  display: block;
+  margin: 0 3rem 2rem 3rem;
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
+
+}
+
+figure{
+  padding: 3em 0;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;             
+}
+
+figure img{
+  border-radius: 5%;
+}
+figcaption{
+  font-style: italic;
+  font-size: 11px;
+}
+
+section{
+  margin: 5em 0;
+}
+
+#main{
+  width: 100%;
+}
+
+#main #img-div{
+  width: 100%;
+  margin:0;
+}
+#image{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+#img-caption{
+  text-align: center;
+}
+
+.intro{
+  margin: 3em 1em;
+  padding: 2em;
+}
+
+
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  margin: 3em 1em;
+  padding: 2em;
+  border-radius: 50px;
+background: linear-gradient(145deg, #f0f0f0, #cacaca);
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.flex .split, .flex .split-reverse {
+  margin-bottom: 3em;
+  padding: 1em;
+  font-size: 14px;
+  border-radius: 50px;
+background: linear-gradient(145deg, #f0f0f0, #cacaca);
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.split{
+  display: flex;
+  justify-content: space-around;
+}
+
+.split-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.split p, .split-reverse p{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.split span, .split-reverse span{
+  width: 35%;
+  height: auto;
+}
+#multipleUnis{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+#multipleUnis img{
+  margin: 0;
+  padding: 1em;
+}
+
+#multipleMedals{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+#multipleMedals img{
+  margin: 0;
+  padding: 1em;
+}
+
+.split span img, 
+.split-reverse span img{
+  height: auto;
+  width: 100%;
+  margin: 50% auto;
+}
