@@ -1,16 +1,13 @@
-
-*{
+* {
   box-sizing: boder-box;
   font-family: Tahoma;
 }
 
-body{
-  max-width: 1000px;
-
+body {
+  max-width: 800px;
 }
-  
 
-h1{
+h1 {
   text-align: center;
 }
 
@@ -20,10 +17,9 @@ q {
   text-align: center;
   font-size: 13px;
   font-style: italic;
-
 }
 
-figure{
+figure {
   padding: 3em 0;
   border-radius: 50px;
   background: linear-gradient(145deg, #f0f0f0, #cacaca);
@@ -31,50 +27,51 @@ figure{
              -20px -20px 60px #ffffff;             
 }
 
-figure img{
+figure img {
   border-radius: 5%;
 }
-figcaption{
+
+figcaption {
   font-style: italic;
   font-size: 11px;
 }
 
-section{
+section {
   margin: 5em 0;
 }
 
-#main{
+#main {
   width: 100%;
 }
 
-#main #img-div{
+#main #img-div {
   width: 100%;
   margin:0;
 }
-#image{
+
+#image {
   display: block;
   margin: 0 auto;
   max-width: 100%;
 }
-#img-caption{
+
+#img-caption {
   text-align: center;
 }
 
-.intro{
+.intro {
   margin: 3em 1em;
   padding: 2em;
 }
 
-
-
-.flex{
+.flex {
   display: flex;
   flex-direction: column;
   margin: 3em 1em;
   padding: 2em;
   border-radius: 50px;
-background: linear-gradient(145deg, #f0f0f0, #cacaca);
-box-shadow:  20px 20px 60px #bebebe,
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  20px 20px 60px #bebebe,
              -20px -20px 60px #ffffff;
 }
 
@@ -83,23 +80,23 @@ box-shadow:  20px 20px 60px #bebebe,
   padding: 1em;
   font-size: 14px;
   border-radius: 50px;
-background: linear-gradient(145deg, #f0f0f0, #cacaca);
-box-shadow:  20px 20px 60px #bebebe,
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  20px 20px 60px #bebebe,
              -20px -20px 60px #ffffff;
 }
 
-.split{
+.split {
   display: flex;
   justify-content: space-around;
 }
 
-.split-reverse{
+.split-reverse {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
 }
 
-.split p, .split-reverse p{
+.split p, .split-reverse p {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -107,36 +104,40 @@ box-shadow:  20px 20px 60px #bebebe,
   text-align: justify;
   text-justify: inter-word;
 }
-.split span, .split-reverse span{
+
+.split span, .split-reverse span {
   width: 35%;
   height: auto;
 }
-#multipleUnis{
+
+#multipleUnis {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 0;
 }
-#multipleUnis img{
+
+#multipleUnis img {
   margin: 0;
   padding: 1em;
 }
 
-#multipleMedals{
+#multipleMedals {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 0;
 }
-#multipleMedals img{
+
+#multipleMedals img {
   margin: 0;
   padding: 1em;
 }
 
 .split span img, 
-.split-reverse span img{
+.split-reverse span img {
   height: auto;
   width: 100%;
   margin: 50% auto;
