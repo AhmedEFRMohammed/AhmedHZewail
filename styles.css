@@ -31,14 +31,17 @@ q {
 
 h2{
   margin-bottom: 2.5rem;
-  /* margin-left: 2rem; */
 
 }
 
 a{
   text-decoration: none;
-  color: red;
+  color: #0d0d4d;
   cursor: pointer;
+}
+
+a:hover{
+  color:#0d0d;
 }
 
 figure {
@@ -163,4 +166,17 @@ section {
   height: auto;
   width: 100%;
   margin: 50% auto;
+}
+
+footer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer p {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin: 4rem 0;
+  color: #b0b0b0;
 }
