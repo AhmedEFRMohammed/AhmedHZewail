@@ -202,3 +202,9 @@ footer p {
   margin: 4rem 0;
   color: #b0b0b0;
 }
+
+@media screen and (max-width: 560px){
+  #quote-caption{
+    flex-direction: column;
+  }
+}
