@@ -8,7 +8,7 @@ main {
   margin: 0 auto;
 }
 
-h1 {
+h1, h6 {
   text-align: center;
 }
 
@@ -21,9 +21,8 @@ h1 {
   margin: 0;
 }
 
-h2{
+h2, h6{
   margin-bottom: 2.5rem;
-
 }
 
 a{
