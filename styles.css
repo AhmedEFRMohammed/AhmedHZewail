@@ -69,6 +69,10 @@ blockquote p::after {
   margin: 0 3rem 2rem 3rem;
 }
 
+#quote-caption cite{
+  margin-left: 5px;
+}
+
 
 figure img {
   border-radius: 5%;
