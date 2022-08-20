@@ -12,14 +12,6 @@ h1 {
   text-align: center;
 }
 
-q {
-  display: block;
-  margin: 0 3rem 2rem 3rem;
-  text-align: center;
-  font-size: 13px;
-  font-style: italic;
-}
-
 .intro p {
 
   text-align: center;
@@ -44,16 +36,12 @@ a:hover{
   color:#0d0d;
 }
 
-figure {
-  padding: 3em 0;
-  border-radius: 50px;
-  background: linear-gradient(145deg, #f0f0f0, #cacaca);
-  box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;             
-}
-
 blockquote {
-    margin: 0;
+  display: block;
+  margin: 0 3rem 2rem 3rem;
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
 }
 
 blockquote p {
@@ -88,6 +76,11 @@ section {
 }
 
 #main #img-div {
+  padding: 3em 0;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff; 
   width: 100%;
   margin:0;
 }
