@@ -52,6 +52,24 @@ figure {
              -20px -20px 60px #ffffff;             
 }
 
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
 figure img {
   border-radius: 5%;
 }
