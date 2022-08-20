@@ -56,6 +56,11 @@ blockquote p::after {
     content: '\201D';
 }
 
+#quote-caption{
+  margin: 0 3rem 2rem 3rem;
+}
+
+
 figure img {
   border-radius: 5%;
 }
