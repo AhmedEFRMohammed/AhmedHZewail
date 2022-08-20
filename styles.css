@@ -12,6 +12,10 @@ h1 {
   text-align: center;
 }
 
+h5{
+  margin: 0 auto;
+}
+
 .intro p {
 
   text-align: center;
