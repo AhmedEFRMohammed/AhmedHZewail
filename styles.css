@@ -212,4 +212,25 @@ footer p {
   #quote-caption{
     flex-direction: column;
   }
+  .split{
+    flex-direction: column-reverse;
+  }
+  .split-reverse{
+    flex-direction: column-reverse; 
+  }
+  .split span, .split p{
+    height: 50%;
+    width: 100%;
+    /* flex-direction: row; */
+   }
+  .split-reverse span, .split-reverse p{
+    height: 50%;
+    width: 100%;
+    /* flex-direction: row; */
+  }
+
+  .split span img{
+    width: 50%;
+    height: 100%;
+  }
 }
