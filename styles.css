@@ -209,9 +209,13 @@ footer p {
 }
 
 @media screen and (max-width: 560px){
-  #quote-caption{
+  /* section:not(:nth-of-type(1)) {
+    height: 100vh;
+  } */
+   #quote-caption{
     flex-direction: column;
   }
+  /*
   .split{
     flex-direction: column-reverse;
   }
@@ -221,16 +225,16 @@ footer p {
   .split span, .split p{
     height: 50%;
     width: 100%;
-    /* flex-direction: row; */
+    flex-direction: row;
    }
   .split-reverse span, .split-reverse p{
     height: 50%;
     width: 100%;
-    /* flex-direction: row; */
+    flex-direction: row;
   }
 
   .split span img{
     width: 50%;
     height: 100%;
-  }
+  } */
 }
