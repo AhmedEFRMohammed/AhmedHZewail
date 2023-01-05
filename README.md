@@ -6,7 +6,7 @@ You can check out the website on the following link: https://ahmedefrmelwazery.g
 
 * **Here is a screenshot of the landing page**
 
-![A demo of the landing page](./resources/imgs/Screenshot (15880).png "A demo of the landing page")
+![A demo of the landing page](./resources/imgs/ScreenshotOfAhmedHZewailQWebsite.png "A demo of the landing page")
 
 I am open for suggestions. So please, send all your suggestions to a.e.elwazery@gmail.com...
 
