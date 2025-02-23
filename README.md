@@ -2,7 +2,7 @@
 
 This public page is dedicated to showcase the autobiography and contributions of Dr. Ahmed H. Zewail...
 
-You can check out the website on the following link: https://ahmedefrmelwazery.github.io/AhmedHZewail/
+You can check out the website on the following link: https://ahmedefrmohammed.github.io/AhmedHZewail/
 
 * **Here is a screenshot of the landing page**
 
