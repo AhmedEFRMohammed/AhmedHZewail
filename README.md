@@ -8,6 +8,6 @@ You can check out the website on the following link: https://ahmedefrmohammed.gi
 
 ![A demo of the landing page](./resources/imgs/ScreenshotOfAhmedHZewailQWebsite.png "A demo of the landing page")
 
-I am open for suggestions. So please, send all your suggestions to a.e.elwazery@gmail.com...
+I am open for suggestions. So please, send all your suggestions to a.e.f.r.mohammed@gmail.com...
 
 Looking forward to your feedback.
